@@ -5,24 +5,6 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
-  background: olive;
-  padding: 20px;
-}
-section {
-  background: white;
-  color: olivedrab;
-  padding: 20px;
-  display: flex;
-}
-div {
-  background: pink;
-  margin: auto;
-}
-footer {
-  background: olive;
-  padding: 10px 20px;
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -32,21 +14,44 @@ li {
   display: inline-block;
   margin-right: 20px;
 }
-.logo a{
+a:hover {
+  text-decoration: underline;
+}
+header {
+  background: olive;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  margin-top: 40px;
+}
+header .logo a {
   background-image: url("photos/logo.png");
   background-size: 300px;
   background-repeat: no-repeat;
-  width: 300px;
+  text-indent : -999999px;
   display: inline-block;
+  width: 300px;
   height: 80px;
-  text-indent: -999px;
+  position: relative;
+  top: -30px;
+  width: 300px;
 }
-a {
-  text-decoration: none;
-  color:white;
-  text-transform: uppercase;
-  margin-top: 40px;
+section {
+  background: white;
+  color: salmon;
+  padding: 20px;
+  display: flex;
 }
-a:hover {
-  text-decoration: underline;
+section div {
+  background: salmon;
+  margin: auto;
+}
+footer {
+  background: olive;
+  padding: 10px 20px;
 }
