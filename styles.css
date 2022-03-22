@@ -68,6 +68,7 @@ header .mobile {
   header .logo {
     display: block;
     text-align: center;
+    margin-right: 0;
   }
   header .logo a {
     width: 250px;
