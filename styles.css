@@ -6,6 +6,12 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
 /* Header */
 
 header {
@@ -81,15 +87,20 @@ header .mobile {
 .features {
   background: white;
   color: coral;
+}
+
+.features .container {
   padding: 20px;
   display: flex;
   align-items: center;
 }
+
 .features figure {
   text-align: center;
   text-transform: uppercase;
   margin: auto;
   width: 200px;
+  padding: 1rem;
 }
 .features figure img {
   border: 1px solid white;
@@ -100,7 +111,7 @@ header .mobile {
 
 /* RESPONSIVE RULES */
 @MEDIA SCREEN AND (MAX-WIDTH: 725PX) {
-  .features {
+  .features .container {
     flex-wrap: wrap;
   }
 }
@@ -110,7 +121,7 @@ header .mobile {
 footer {
   background-color: black;
   padding: 10px 20px;
-  color: gray;
+  color: lightgray;
   text-align: center;
   padding: 20px;
   font-size: 12px;
